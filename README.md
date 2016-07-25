@@ -2,6 +2,8 @@
 
 Context provider for React.
 
+Inspired from [`fluxible-addons-react/provideContext`](https://github.com/yahoo/fluxible/blob/generator-fluxible-v1.2.6/packages/fluxible-addons-react/docs/api/provideContext.md).
+
 ## Install
 
 ```
