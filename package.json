@@ -1,5 +1,8 @@
 {
   "author": "Yamagishi Kazutoshi <ykzts@desire.sh>",
+  "bugs": {
+    "url": "https://github.com/ykzts/context-provider/issues"
+  },
   "description": "Context provider for React.",
   "devDependencies": {
     "babel-cli": "^6.11.4",
@@ -27,9 +30,19 @@
       "<rootDir>/node_modules/react-dom/"
     ]
   },
+  "keywords": [
+    "context",
+    "context-provider",
+    "providecontext",
+    "react"
+  ],
   "license": "MIT",
   "main": "./lib/index",
   "name": "context-provider",
+  "peerDependencies": {
+    "react": "~0.14.0 || ^15.0.0"
+    "react-dom": "~0.14.0 || ^15.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ykzts/context-provider.git"
