@@ -109,7 +109,7 @@ App = provideContext({
 
 ReactDOM.render(
   React.createElement(App, {
-    context: { userName: 'Joe Doe' }
+    context: { userName: 'John Doe' }
   }),
   document.getElementById('app')
 );
