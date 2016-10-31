@@ -23,8 +23,7 @@
     "rimraf": "^2.5.4"
   },
   "jsnext:main": "./src/index",
-  "jest": {
-  },
+  "jest": {},
   "keywords": [
     "context",
     "context-provider",
@@ -48,5 +47,5 @@
     "prepublish": "npm run clean && npm run build",
     "test": "jest src"
   },
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
