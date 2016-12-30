@@ -6,7 +6,7 @@
   "description": "Context provider for React.",
   "devDependencies": {
     "babel-cli": "^6.11.4",
-    "babel-jest": "^16.0.0",
+    "babel-jest": "^18.0.0",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-transform-class-properties": "^6.11.5",
     "babel-plugin-transform-es2015-block-scoping": "^6.10.1",
@@ -16,7 +16,7 @@
     "babel-plugin-transform-es2015-template-literals": "^6.8.0",
     "babel-plugin-transform-object-rest-spread": "^6.8.0",
     "babel-plugin-transform-react-jsx": "^6.8.0",
-    "jest-cli": "^16.0.2",
+    "jest-cli": "^18.1.0",
     "react": "^15.2.1",
     "react-addons-test-utils": "^15.2.1",
     "react-dom": "^15.2.1",
@@ -45,7 +45,7 @@
     "clean": "rimraf lib",
     "build": "babel --out-dir lib --ignore __tests__ src",
     "prepublish": "npm run clean && npm run build",
-    "test": "jest src"
+    "test": "jest"
   },
   "version": "1.0.3"
 }
